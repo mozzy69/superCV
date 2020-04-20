@@ -1,0 +1,41 @@
+img[alt="codespaceLogo"]{
+    max-width: 200px;
+}
+
+#home-section{
+    background-image: url(/images/hero_1.jpg);
+    background-image: url(/images/hero_2.jpg);
+    background-image: url(/images/hero_3.jpg);
+}
+
+.aboutMe{
+    text-align: center;
+}
+
+img[alt="meImage"]{
+    border-radius: 100%;
+    box-shadow: 5px 5px 0px;
+}
+
+.testimonial blockquote{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+ /* The animation code */
+@keyframes cssanimation {
+  0%   {border-radius: 100%;
+        /*transform: translateX(0px);
+        box-shadow: 1px 1px 0px*/}
+  25%  {border-radius: 75%;}
+  50%  {border-radius: 50%;}
+  100% {border-radius: 25%;}
+}
+
+/* The element to apply the animation to */
+ {
+  animation-name: cssanimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+} 
